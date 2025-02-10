@@ -18,18 +18,18 @@ const App = () => {
   };
 
   return (
-  <div className={`${darkMode && "dark"}`}>
+    <div className={`${darkMode && "dark"}`}>
       <main className="bg-linen dark:bg-olive px-6 pb-10">
-        <Button className="bg-irish text-linen hover:bg-sage dark:bg-mustard dark:text-olive dark:hover:bg-peach rounded-full" onClick={toggleDarkMode}>
+        <Button className="bg-irish text-linen hover:bg-sage dark:bg-mustard dark:text-olive dark:hover:bg-peach rounded-full absolute top-16 right-6 md:top-4" onClick={toggleDarkMode}>
           {darkMode ? <FiSun /> : <FiMoon />}
         </Button>
         <Navbar />
-        <Hero/>
-        <AboutMe/>
+        <Hero />
+        <AboutMe />
         <Skills />
         <Projects />
-        <ContactForm/>
-        <Footer/>
+        <ContactForm />
+        <Footer />
       </main>
     </div>
   );
