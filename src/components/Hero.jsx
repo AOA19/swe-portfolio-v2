@@ -2,10 +2,11 @@ import CustomButton from "./CustomButton";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="md:flex md:justify-around md:items-center">
       <div>
-        <img src="./images/profile-pic.jpg" alt="Alexandra's profile picture" className="rounded-full w-80 h-80 mx-auto border-8 border-irish dark:border-mustard " />
+        <img src="./images/profile-pic.jpg" alt="Alexandra's profile picture" className="rounded-full w-80 h-80 md:m-w-60 mx-auto border-8 border-irish dark:border-mustard " />
       </div>
+      <div className="md:w-2/5">
       <div>
         <p className="text-olive dark:text-linen">
           I’m
@@ -24,6 +25,7 @@ const Hero = () => {
           link="https://github.com/AOA19" 
           color="bg-periwinkle-100 dark:bg-sage text-linen dark:text-olive" 
           hoverColor="hover:border-solid hover:border-2 hover:border-periwinkle-100 hover:bg-linen hover:text-olive dark:hover:text-linen dark:hover:bg-olive dark:hover:border-sage" />
+      </div>
       </div>
     </div>
   );

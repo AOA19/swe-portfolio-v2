@@ -6,7 +6,7 @@ const ContactForm = () => {
     <div>
       <section id="contact" className="mt-12">
         <Header title="Contact Me" />
-        <form action="">
+        <form action="" className="md:px-20">
           {/* Name input */}
           <div className="relative z-0 w-full mb-5 group">
             <input 
