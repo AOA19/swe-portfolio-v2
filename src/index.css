@@ -6,3 +6,11 @@
     font-family: "Ahsing";
     src:url("fonts/Ahsing.otf");
 }
+
+* {
+    @apply transition-colors duration-200;
+}
+
+html {
+    scroll-behavior: smooth;
+}

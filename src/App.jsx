@@ -1,14 +1,38 @@
-// import { useState } from 'react'
+import { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Nav";
+import Hero from "./components/Hero"
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import ContactForm from "./components/ContactForm"
+import Footer from "./components/Footer"
 import { Button } from "flowbite-react";
-import './App.css'
+import { FiSun, FiMoon } from "react-icons/fi";
 
-function App() {
+const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
-    <>
-      <h1>Portfolio</h1>
-    </>
+  <div className={`${darkMode && "dark"}`}>
+      <main className="bg-linen dark:bg-olive px-6 pb-10">
+        <Button className="bg-irish text-linen hover:bg-sage dark:bg-mustard dark:text-olive dark:hover:bg-peach rounded-full" onClick={toggleDarkMode}>
+          {darkMode ? <FiSun /> : <FiMoon />}
+        </Button>
+        <Navbar />
+        <Hero/>
+        <AboutMe/>
+        <Skills />
+        <Projects />
+        <ContactForm/>
+        <Footer/>
+      </main>
+    </div>
   );
-}
+};
 
-export default App
+export default App;

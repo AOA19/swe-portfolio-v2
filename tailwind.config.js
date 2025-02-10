@@ -11,7 +11,10 @@ export default {
       peach: "#F8D48B",
       irish: "#14591D",
       sage: "#ADBC91",
-      periwinkle: "#7180B9",
+      periwinkle: {
+        100: "#7180B9",
+        200:"#576390",
+      } 
     },
     fontFamily: {
       sora: ["Sora", "serif"],
@@ -20,4 +23,5 @@ export default {
     extend: {},
   },
   plugins: [flowbite.plugin()],
+  darkMode: "selector",
 };
