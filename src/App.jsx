@@ -19,8 +19,12 @@ const App = () => {
 
   return (
     <div className={`${darkMode && "dark"}`}>
-      <main className="bg-linen dark:bg-olive px-6 pb-10">
-        <Button className="bg-irish text-linen hover:bg-sage dark:bg-mustard dark:text-olive dark:hover:bg-peach rounded-full absolute top-16 right-6 md:top-4" onClick={toggleDarkMode}>
+      <main className="bg-linen dark:bg-olive px-6 pb-10 pt-3.5">
+        <Button 
+          className="bg-irish hover:bg-sage text-linen dark:bg-mustard dark:text-olive dark:hover:bg-peach rounded-full absolute top-6 right-24 md:right-12" 
+          onClick={toggleDarkMode}
+          aria-label={darkMode ? "Switch to light theme" : "Switch to dark theme"}
+          >
           {darkMode ? <FiSun /> : <FiMoon />}
         </Button>
         <Navbar />
