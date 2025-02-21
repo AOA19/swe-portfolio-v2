@@ -4,7 +4,7 @@ import {Button} from "flowbite-react"
 const ContactForm = () => {
   return (
     <div>
-      <section id="contact" className="mt-12">
+      <section id="contact" className="mt-24">
         <Header title="Contact Me" />
         <form action="" className="md:px-20">
           {/* Name input */}
