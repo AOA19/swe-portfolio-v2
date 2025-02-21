@@ -14,16 +14,16 @@ const Nav = () => {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link href="#about" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px]">
+          <Navbar.Link href="#about" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px] 2xl:text-[22px]">
             About
           </Navbar.Link>
-          <Navbar.Link href="#skills" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px]">
+          <Navbar.Link href="#skills" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px] 2xl:text-[22px]">
             Skills
           </Navbar.Link>
-          <Navbar.Link href="#projects" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px]">
+          <Navbar.Link href="#projects" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px] 2xl:text-[22px]">
             Projects
           </Navbar.Link>
-          <Navbar.Link href="#contact" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px]">
+          <Navbar.Link href="#contact" className="text-irish hover:text-sage dark:text-mustard dark:hover:text-peach font-sora text-lg lg:text-[20px] 2xl:text-[22px]">
             Contact
           </Navbar.Link>
         </Navbar.Collapse>
