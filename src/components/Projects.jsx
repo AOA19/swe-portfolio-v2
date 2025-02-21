@@ -9,7 +9,7 @@ const Projects = () => {
         <Header title="My Projects" className="" />
         <div className="sm:px-14">
           {projects.map((project, index) => (
-            <ProjectsCard key={index} project={project}/>
+            <ProjectsCard key={index} project={project} index={index}/>
           ))}
         </div>
         </section>
