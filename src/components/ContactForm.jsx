@@ -1,13 +1,38 @@
 import Header from "./Header";
-import {Button} from "flowbite-react"
+import { FaGithub, FaLinkedinIn, FaRegEnvelope } from "react-icons/fa";
+// import {Button} from "flowbite-react"
 
 const ContactForm = () => {
   return (
     <div>
-      <section id="contact" className="mt-24">
+      <section id="contact" className="mt-24 mb-32">
         <Header title="Contact Me" />
-        <form action="" className="md:px-20">
-          {/* Name input */}
+        <div className="flex flex-row gap-x-4 justify-center text-2xl">
+          <a 
+            href="mailto:aakinyemi.dev@gmail.com" 
+            aria-label="Send me an email"
+            >
+            <FaRegEnvelope
+              className="text-periwinkle-100 dark:text-sage hover:text-olive dark:hover:text-linen" />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/alexandraak/" 
+            target="_blank" 
+            aria-label="Visit my linkedin"
+            >
+            <FaLinkedinIn
+              className="text-periwinkle-100 dark:text-sage hover:text-olive dark:hover:text-linen" />
+          </a>
+          <a 
+            href="https://github.com/AOA19/" 
+            target="_blank" 
+            aria-label="Visit my github"
+            >
+            <FaGithub
+              className="text-periwinkle-100 dark:text-sage hover:text-olive dark:hover:text-linen" />
+          </a>
+        </div>
+        {/* <form action="" className="md:px-20">
           <div className="relative z-0 w-full mb-5 group">
             <input 
               type="text" 
@@ -22,7 +47,6 @@ const ContactForm = () => {
               Full Name
             </label>
           </div>
-          {/* Email Input */}
           <div className="relative z-0 w-full mb-5 group">
              <input 
               type="email" 
@@ -37,7 +61,6 @@ const ContactForm = () => {
               Email
             </label>
           </div>
-          {/* Subject Input */}
           <div className="relative z-0 w-full mb-5 group">
                <input 
               type="text" 
@@ -52,7 +75,6 @@ const ContactForm = () => {
               Subject
             </label>
           </div>
-          {/* Message Input */}
           <div>
             <label 
               htmlFor="message" 
@@ -70,7 +92,7 @@ const ContactForm = () => {
           <Button 
             type="submit" 
             className="mt-8 px-6 bg-irish text-linen hover:bg-linen hover:text-olive hover:border-2 hover:border-irish dark:bg-mustard dark:text-olive dark:hover:bg-olive dark:hover:border-2 dark:hover:border-mustard dark:hover:text-linen">Send</Button>
-        </form>
+        </form> */}
       </section>
     </div>
   );

@@ -12,11 +12,11 @@ const ProjectsCard = ({ project, index }) => {
           className="rounded-lg drop-shadow-lg" />
       </div>
       <div className="md:w-4/5">
-        <h3 className="font-sora font-bold text-2xl text-center text-olive dark:text-linen py-4">
+        <h3 className="font-sora font-bold text-2xl text-center text-olive dark:text-linen py-4 2xl:text-3xl">
             {project.title}</h3>
-        <p className="font-sora text-olive dark:text-linen text-center pb-4">
+        <p className="font-sora text-olive dark:text-linen text-center pb-4 2xl:px-36 2xl:text-xl">
             {project.description}</p>
-        <p className="text-olive dark:text-linen text-center pb-10">
+        <p className="text-olive dark:text-linen text-center pb-10 2xl:text-lg">
           <span className="font-bold">Tech Stack:</span>
           {` ${project.techStack.join(", ")}`}
         </p>
