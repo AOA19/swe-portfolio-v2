@@ -7,14 +7,14 @@ const projects = [
     githubLink: "https://github.com/AOA19/the-curl-diary",
     src: "./images/curl-diary-project.png",
   },
-  {
-    title: "Moodie Melodies",
-    description: "Moodies Melodies is a mood-based music application that utilizies the Spotify Web API to curate Spotify playlists tailored to your current mood.",
-    techStack: ["React", "Tailwind CSS"],
-    projectLink: "https://moodie-melodies.netlify.app/",
-    githubLink: "https://github.com/AOA19/moodie-melodies",
-    src: "./images/moodie-melodies-project.png",
-  },
+  // {
+  //   title: "Moodie Melodies",
+  //   description: "Moodies Melodies is a mood-based music application that utilizies the Spotify Web API to curate Spotify playlists tailored to your current mood.",
+  //   techStack: ["React", "Tailwind CSS"],
+  //   projectLink: "https://moodie-melodies.netlify.app/",
+  //   githubLink: "https://github.com/AOA19/moodie-melodies",
+  //   src: "./images/moodie-melodies-project.png",
+  // },
   {
     title: "FlavrFindr",
     description: "Tired of the same old meals every night for dinner? Try out the FlavrFindr recipe app to discover new delicious recipes. Users can utilize the search bar to look for one or multiple ingredients and instantly receive real-time data results from the Tasty API.",
@@ -30,6 +30,14 @@ const projects = [
     projectLink: "https://tgin-landing-page.netlify.app/",
     githubLink: "https://github.com/AOA19/tgin-landing-page",
     src: "./images/tgin-project.png",
+  },
+  {
+    title: "Skyfall",
+    description: " This app enables users to search and filter meteorite data from the NASA Meteorite Landings API by name, composition, mass range, and year of strike. Users can view the filtered data in a table, explore the geolocation of the strike, and visualize the data through various charts.",
+    techStack: ["React", "Tailwind CSS"],
+    projectLink: "https://team27-skyfall.netlify.app/",
+    githubLink: "https://github.com/chingu-voyages/v45-tier2-team-27",
+    src: "./images/skyfall-project.png",
   },
 ];
 
