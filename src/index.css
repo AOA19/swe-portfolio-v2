@@ -4,7 +4,9 @@
 
 @font-face {
     font-family: "Ahsing";
-    src:url("fonts/Ahsing.otf");
+    src: url("/fonts/Ahsing.woff2") format("woff2"),
+            url("/fonts/Ahsing.woff") format("woff"),
+            url("/fonts/Ahsing.otf") format("opentype");
 }
 
 * {
