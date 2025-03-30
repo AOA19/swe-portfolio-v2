@@ -4,9 +4,12 @@
 
 @font-face {
     font-family: "Ahsing";
-    src: url("/fonts/Ahsing.woff2") format("woff2"),
-            url("/fonts/Ahsing.woff") format("woff"),
-            url("/fonts/Ahsing.otf") format("opentype");
+    src: url('/fonts/ahsing-regular.otf') format("opentype"),
+    url("/fonts/ahsing-regular.woff") format("woff"),
+    url("/fonts/ahsing-regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
 }
 
 * {
